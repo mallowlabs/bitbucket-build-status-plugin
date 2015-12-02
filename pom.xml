@@ -7,7 +7,7 @@
 		<version>1.625.2</version><!-- which version of Jenkins is this plugin built against? -->
 	</parent>
 
-	<artifactId>bitbuccket-build-status-plugin</artifactId>
+	<artifactId>bitbucket-build-status-plugin</artifactId>
 	<version>0.1</version>
 	<packaging>hpi</packaging>
 	<name>Bitbucket Build Status Plugin</name>
