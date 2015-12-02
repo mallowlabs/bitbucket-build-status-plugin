@@ -125,7 +125,7 @@ public class BitbucketBuildStatusNotifier extends Notifier {
             post.setRequestEntity(new StringRequestEntity(field.toString(), "application/json", "utf-8"));
 
             int response = client.executeMethod(post);
-            if (response != HttpStatus.SC_OK) {
+            if (response != HttpStatus.SC_CREATED) {
                 listener.error(post.getResponseBodyAsString());
             }
         } catch (Exception e) {
