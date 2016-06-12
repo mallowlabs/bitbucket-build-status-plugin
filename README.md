@@ -1,4 +1,4 @@
-Bitbucket Build Status Plugin for Jenkins
+Bitbucket Build Status Plugin for Jenkins ![build status](https://circleci.com/gh/mallowlabs/bitbucket-build-status-plugin/tree/master.svg?style=shield)
 ==============================
 A plugin for Jenkins that update Bitbucket build statuses ( https://github.com/mallowlabs/bitbucket-build-status-plugin/ ).
 
