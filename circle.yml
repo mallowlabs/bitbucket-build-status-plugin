@@ -1,7 +1,0 @@
-machine:
-  java:
-    version: openjdk7
-general:
-  artifacts:
-    - "target/bitbucket-build-status-plugin.hpi"
-
