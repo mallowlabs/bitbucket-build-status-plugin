@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/openjdk:8u171-jdk
+    steps:
+      - checkout
+      - restore_cache:
+          key: circleci-bitbucket-build-status-{{ checksum "pom.xml" }}
+      - run: mvn package
+      - save_cache:
+          paths:
+            - ~/.m2
+          key: circleci-bitbucket-build-status-{{ checksum "pom.xml" }}
+      - store_artifacts:
+          path: target/bitbucket-build-status.hpi
+
