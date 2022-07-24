@@ -20,19 +20,19 @@
 		<maven.compiler.source>${java.version}</maven.compiler.source>
 		<jenkins.version>1.645</jenkins.version>
 	</properties>
-	<!-- get every artifact through maven.glassfish.org, which proxies all the 
+	<!-- get every artifact through maven.glassfish.org, which proxies all the
 		artifacts that we need -->
 	<repositories>
 		<repository>
 			<id>repo.jenkins-ci.org</id>
-			<url>http://repo.jenkins-ci.org/public/</url>
+			<url>https://repo.jenkins-ci.org/public/</url>
 		</repository>
 	</repositories>
 
 	<pluginRepositories>
 		<pluginRepository>
 			<id>repo.jenkins-ci.org</id>
-			<url>http://repo.jenkins-ci.org/public/</url>
+			<url>https://repo.jenkins-ci.org/public/</url>
 		</pluginRepository>
 	</pluginRepositories>
 
